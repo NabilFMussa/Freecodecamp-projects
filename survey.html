@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet"  href="survey.css"/>
+  <title>Dogs</title>
+  <h1 id="title" class="white">Survey About Dogs</h1>
+  <p class="item-p" id="description"> this will be a short survey about dogs</p>
+</head>
+
+<main>
+  <body>
+    <div class="body2">
+      <form id="survey-form">
+        <fieldset>
+          <input type="text" id="name" placeholder="enter your name" required/>
+          <label for="name" id="name-label" class="fontsetting">First and Last Names</label>
+        </fieldset>
+        <fieldset>
+          <input type="email" id="email" placeholder="enter your email" required/>
+          <label for="email" id="email-label" class="fontsetting">Use Proper a Format</label>
+        </fieldset>
+        <fieldset>
+          <input type="number" placeholder="0-8" id="number" min="0" max="8" required/><label for="number" id="number-label"class="fontsetting">How Many Dogs Do You Have?</label>
+        </fieldset>
+        <fieldset>
+          <select id="dropdown">
+            <option>labrador</option>
+            <option>husky</option>
+            <option>otto</option>
+          </select>
+          <label for="dropdown" class="fontsetting"> Type of Dog</label>
+        </fieldset>
+        <fieldset>
+          <legend class="legend">
+            What is your dogs personality?
+          </legend>
+          <input type="radio" name="playful-lazy" id="playful" value="playful" checked class="inline"/><label for="playful" class="labelradio">Playful</label><br/>
+          <input type="radio" name="playful-lazy" id="lazy" value="lazy" class="inline" /><label for="lazy" class="labelradio" >Lazy</label>
+        </fieldset>
+        <fieldset>
+          <legend class="legend">
+            Would you recommend this form to your friends?
+          </legend>
+          <input type="checkbox" checked value="1" id="yes" name="yes-no" class="inline"><label class="labelradio" for="yes">Yes</label><br/>
+          <input type="checkbox" value="1" id="no" name="yes-no" class="inline"><label for="no" class="labelradio">No</label>
+        </fieldset>
+        <fieldset>
+          <legend class="legend">
+            Any comments or suggestions?
+          </legend>
+          <textarea>
+          </textarea>
+        </fieldset>
+        <fieldset>
+          <button type="submit" placeholder="submit" id="submit" >Submit
+          </button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</main>

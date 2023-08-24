@@ -1,0 +1,88 @@
+body{
+    background-color: navy;
+  }
+  
+  .body2{
+    background-color: midnightblue;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+  
+  .fontsetting{
+    font-size: 10px;
+    font-family: arial;
+    margin-left: 1px;
+    color: white;
+  }
+  
+  h1, h2, p{
+    text-align: center;
+  }
+  
+  h1,h2{
+    font-family: impact;
+  }
+  .item-p{
+    margin-top: -25px;
+    color:white;
+  }
+  .white{
+    color:white;
+  }
+  .grey{
+    color: white;
+  }
+  
+  fieldset{
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  select{
+    background-color: lightblue;
+    border: 1px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  input{
+    background-color: lightblue;
+    border-radius:4px;
+    
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+  .legend{
+    margin-left:-8px;
+    margin-bottom: -6px;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  div{
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .labelradio{
+    font-size: 13px;
+    color: lightgrey;
+    font-family: sans-serif;
+  }
+  
+  button{
+    width: 100px;
+    height: 25px;
+  }
