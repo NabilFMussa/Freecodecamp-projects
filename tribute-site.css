@@ -1,0 +1,50 @@
+.body{
+    background-color:  #F4F4E3;
+    height: 100%;
+    margin-top: -5;
+    margin-bottom: -5;
+    margin-left: -2%;
+    margin-right: -2%;
+    
+    }
+    
+    h1, h3, p{
+      text-align: center;
+      color: grey;
+    }
+    
+    h3{
+      font-size: 1.05em;
+    }
+    
+    .p1{
+      font-family: impact;
+      font-size: 0.80rem;
+    }
+    
+    .p2{
+      margin-top: 0%;
+      font-size: 0.65em;
+    }
+    
+    img{
+      max-width: 60%;
+      display: block;
+      margin: auto;
+    }
+    
+    div{
+      padding-top: 2%;
+      padding-left: 2%;
+      padding-right: 2%;
+      background-color: white;
+    }
+    
+    section{
+      display: flex;
+    }
+    
+    footer{
+      padding: 35;
+      text-align: center;
+    }
