@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="HTMLtd.CSS">
+  </head>
+
+  <body>
+      <div class="sidebarback">
+       <h1 class="headerh1">Technical Document(HTML) </h1>
+       <div class="divider"></div>
+       <nav id="navbar">
+        <header>
+       <ul>
+         <li><a class="nav-link" href="#Introduction"> Introduction </br></a></li>
+                  <div class="divider"></div>
+         <li><a class="nav-link"href="#Basic_structure"> Basic structure</br></a></li>
+                  <div class="divider"></div>
+         <li><a class="nav-link"href="#h_elements">  h elements </br></a></li>
+                  <div class="divider"></div>
+         <li><a class="nav-link"href="#p_elements"> p elements </br></a></li>  
+                <div class="divider"></div>
+         <li><a class="nav-link"href="#CSS_and_styling"> CSS and styling </br></a></li>
+                  <div class="divider"></div>
+       <ul>
+        </header>
+       </nav>
+    </div>
+
+    
+
+    <main id="main-doc">
+      
+      <section class="main-section" role="region" id="Introduction">
+        <header class="h1"id="introduction">
+          Introduction
+        </header>
+         
+          <p>HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content.
+          </p>
+          <p>You need more than just HTML to create an appealing website, but that will only be introduced later in the document(see part 4).
+         </p>
+          <div class="divider1"></div>
+  
+      </section>
+      <section class="main-section" role="region" id="Basic_structure">
+        <header class="h1"id="Basic-structure">
+          Basic Structure
+        </header>
+          
+          <p>Every HTML document created has a basic template or structure that it must follow. In this structure it will include mostly non-visual elements. These elements help browser search effiency and capability. This is also where you link your HTML and CSS files.</p>
+        <div class="code">
+          <code>
+            {!DOCTYPE html}</br>
+            {html}</br>
+              {head}</br>
+              {meta}</br>
+              {/head}</br>
+            {/html}</br>m
+          </code>
+        </div></br>
+        <div class="code">
+          <code>
+            {meta charset="utf-8"}</br>
+            {meta name="viewport" content="width=device-width, initial-scale=1.0"}</br>
+          </code>
+        </div>
+        <p>This is an example of what it would look like(excluding the tag symbols)</p>
+        <div class="divider1"></div>
+      </section>
+      <section class="main-section" role="region" id="h_elements">
+        <header class="h1"id="h-elements">
+          h elements
+        </header>
+          <p>h elements in HTML act as headers or titles for your page. There are 7 predefined h elements each with different sizes, but you can customize each of them individually if you use CSS. You would generally use h elements as a title before text</p>
+          <p>Here's an example(in actual HTML the title would have a larger font and be bold)</p>
+          <div class="code">
+            <code>
+              {h}Placeholder title{/h}</br>
+                 //you would have text that follows here//</br>
+                 //this is where the {p} element comes into play//
+            </code>
+          </div>
+          <div class="divider1"></div>
+      </section>
+      <section class="main-section" role="region" id="p_elements">
+        <header class="h1"id="p-elements">
+          p elements
+        </header>
+          <p>p elements in HTML serve as paragraphs or text boxes. this is where you would place the bulk of your text on your page whether it's a description of an item, or a introduction to your page.</p>
+          <p>Here is an example of what that would look like(the p element will have a smaller font size than the h element)</p>
+          <div class="code">
+            <code>
+              {h}Placeholder title{/h}</br>
+              {p}this is what text in a p element would look like. it would usually come after the h element{/p}
+            </code>
+          </div>
+          <div class="divider1"></div>
+      </section>
+      <section class="main-section" role="region" id="CSS_and_styling">
+        <header class="h1"id="CSS-and-styling">
+          CSS and styling
+        </header>
+          <p>HTML is just used to create the basic foundation for your website so that you can start to build and alter it the way you want to. Thats where CSS comes into play. CSS,Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. </p>
+
+          <p>CSS is often much simpler than HTML, here is an example of what some of the CSS for this page looks like</p>
+          <div class="code">
+            <code>
+              *{
+  font-family: sans-serif;
+}</br>
+p{
+  display: flex;</br>
+  text-align: justify;</br>
+}</br>
+
+.code{</br>
+  background-color: lightgrey;</br>
+  border-radius: 5px;</br>
+  margin-left: 10px;</br>
+  width: 90%;</br>
+}</br>
+
+.sidebarback{</br>
+  display: block;</br>
+  background-color: #FFEFC1;</br>
+  width: 170;</br>
+  border: solid ;</br>
+  top: 0;</br>
+  left: 0;</br>
+  padding: 20px 0;</br>
+  height: 100%;</br>
+  position: fixed;</br>
+            </code>
+          </div>
+          <p>There are also multiple front-end languages that it doesn't hurt to learn, here are a few of them:</p>
+          <ul>
+            <li class="list">CSS</li> 
+            <li class="list">Javascript</li> 
+            <li class="list">React </li> 
+            <li class="list">Django</li> 
+            <li class="list">Angular</li> 
+            <li class="list">Swift</li> 
+      </section>
+      
+    </main>
+  </body>
+</html>
