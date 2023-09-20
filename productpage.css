@@ -1,0 +1,132 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  body{
+    margin:0; 
+    margin-left: -22px;
+    background-color: #F5F5F5;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  *{
+    font-family: sans-serif;
+  ;
+  }
+  
+  .img{
+    display: flex;
+    align-items: center;
+    width: 20%;
+  }
+  #header-img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  #header{
+    background-color: lightgrey;
+    width: 100%;
+    max-height: 13%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+  }
+  #header ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5px;
+    position: relative;
+  }
+  #header ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
+    position: relative;
+  }
+  #header ul li:hover{
+    background-color: beige;
+    border-radius: 10%;
+  }
+  #header ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 0.2rem;
+  }
+  
+  .emails{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #email label{
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  #email #email{
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+  #email #submit{
+    margin-top: 5px;
+    margin-left: 75px;
+    border-radius: 10%;
+    background-color: lightblue;
+  }
+  #email #submit:hover{
+    background-color: beige;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  #About{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  #About h1{
+    margin: auto;
+  }
+  iframe{
+    width: 500px;
+    margin: auto;
+    height: 600px;
+  }
+  
+  #Features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  }
+  #Features ul li{
+    list-style-type: none;
+  }
+  
+  .cash:hover{
+    color: green;
+    font-size: 5rem;
+  }
+  #Price{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .divider{
+    background-color: black;
+    height: 2px;
+    margin-top: 10px;
+    display: inline-block;
+    margin: 50px 0 50px 0;
+    width: 104%;
+  }
