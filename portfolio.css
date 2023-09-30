@@ -1,0 +1,172 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  *::-webkit-scrollbar {
+    display: none;
+  }
+  * {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #191970;
+  }
+  *{
+    font-family: helvetica;
+  }
+  
+  header{
+    margin: 0;
+    padding: 0px;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #191970;
+    width: 100%;
+    justify-content: right;
+    position: fixed;
+    z-index: 100000;
+  }
+  header ul{
+    display: flex;
+  }
+  header ul li{
+    padding: 0.2rem;
+    margin-right: 10px;
+    margin-bottom: -5px;
+    list-style-type: none;
+    align-items: left
+  }
+  header ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  header ul li a:hover{ 
+    font-weight: bold;
+  }
+  
+  .welcome{
+    display: flex;
+    background: linear-gradient(90deg, #45555C, black,  grey
+    );
+    width: 100%;
+    height: 200px;
+    margin-top: -20px;
+    padding-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .welcome h1{
+    font-weight: bold;
+    color: white;
+    margin-top: 200px;
+  }
+  .welcome h1 span{
+    color: red;
+    font-weight: normal;
+  }
+  
+  .projects{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #45555C, black,  grey
+    );
+    margin-top: -20px;
+    color: white;
+  }
+  .projects h1{
+    text-decoration: underline;
+    text-align: center;  
+    font-weight: normal; 
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  img{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    margin-left: 10px;
+    border: solid red;
+    }
+  .Solar-system p{
+    width: 250px;
+    background-color: #45555C;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: helvetica;
+    transition: font-size 1s ease-in-out 0ms ;
+    border-radius: 0 0 50% 50%;
+  }
+  .Solar-system p:hover{
+    font-size: 1.1rem;
+  }
+  .technical-documentation p{
+    width: 250px;
+    background-color: #45555C;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: helvetica;
+    transition: font-size 1s ease-in-out 0ms ;
+    border-radius: 0 0 50% 50%;
+  }
+  .technical-documentation p:hover{
+    font-size: 1.1rem;
+  }
+  .quiz p{
+    width: 250px;
+    background-color: #45555C;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: helvetica;
+    transition: font-size 1s ease-in-out 0ms ;
+    border-radius: 0 0 50% 50%;
+  }
+  .quiz p:hover{
+    font-size: 1.1rem;
+  }
+  .product-page p{
+    width: 250px;
+    background-color: #45555C;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: helvetica;
+    transition: font-size 1s ease-in-out 0ms ;
+    border-radius: 0 0 50% 50%;
+  }
+  .product-page p:hover{
+    font-size: 1.1rem;
+  }
+  
+  .contact{
+    color: white;
+    background-color: #191970;
+    text-align: center;
+    padding-top: 20px
+  }
+  .contact h1{
+    padding-bottom: 10px;
+  }
+  .contact a{
+    color: red;
+    text-decoration: none;
+    padding-bottom: 30px;
+  }
