@@ -1,0 +1,27 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+ display: flex;
+ justify-content: center; 
+}
+
+#text-input {
+  border-style: groove;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
+
+#result {
+  border-style: groove;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
